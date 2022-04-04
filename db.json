@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Blog Post Title 1",
+      "content": "sample content..."
+    },
+    {
+      "id": 2,
+      "title": "Blog Post Title 2",
+      "content": "sample content..."
+    },
+    {
+      "id": 3,
+      "title": "blog post title 3",
+      "content": "welcome"
+    },
+    {
+      "title": "Deepali",
+      "content": "welcome deepali",
+      "id": 5
+    },
+    {
+      "title": "harsh",
+      "content": "welcome everyone",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "harsh",
+      "comment": "welcome - updated"
+    },
+    {
+      "id": 2,
+      "name": "shah",
+      "comment": "shah"
+    },
+    {
+      "pid": 3,
+      "name": "sdsd",
+      "comment": "ssdsdsd",
+      "id": 3
+    },
+    {
+      "pid": 1,
+      "name": "kanhaiya",
+      "comment": "welcome",
+      "id": 4
+    },
+    {
+      "pid": 2,
+      "name": "Harsh",
+      "comment": "shah",
+      "id": 5
+    },
+    {
+      "pid": 2,
+      "name": "welcome",
+      "comment": "wecklnfgfg",
+      "id": 6
+    }
+  ]
+}

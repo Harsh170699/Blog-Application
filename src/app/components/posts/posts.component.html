@@ -1,0 +1,2 @@
+<!-- send the post data to app-post -->
+<app-post *ngFor="let post of posts" [post1]="post" (onDeletePost)="deletePost(post)" class="col-12 {{ colClass }}"></app-post>

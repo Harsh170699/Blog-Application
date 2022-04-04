@@ -1,0 +1,10 @@
+<div class="container bg-light p-5 my-5">
+    <h1 class="text-center">Edit a Blog Post</h1>
+    <form (ngSubmit)="onSubmit()">
+        <label>Title</label>
+        <input type="text" class="form-control mb-3" name="title" [(ngModel)]="title">
+        <label>Content</label>
+        <textarea name="content" cols="30" rows="10" class="form-control mb-3" [(ngModel)]="content"></textarea>
+        <button class="btn btn-dark mt-3">Update</button>
+    </form>
+</div>
